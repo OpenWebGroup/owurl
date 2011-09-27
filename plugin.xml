@@ -1,0 +1,10 @@
+<plugin>
+ <nom>Gestion des annexes d'OpenWeb</nom>
+ <version>1.0</version>
+ <prefix>owimg</prefix>
+ <etat>dev</etat>
+ <auteur>Florian Hatat</auteur>
+ <description>Grâce à ce plugin, les documents joints à un article sont stockés
+ dans un sous-répertoire de IMG/ spécifique à chaque article.</description>
+ <options>owimg_options.php</options>
+</plugin>
