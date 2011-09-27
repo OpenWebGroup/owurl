@@ -1,0 +1,22 @@
+<plugin>
+  <nom>URL Openweb</nom>
+  <auteur>
+    Florian Hatat
+    <br />&#169; 2010 - Distribu&#233; sous licence GNU/GPL
+    <br />Site de d&eacute;monstration : [->http://openweb.eu.org/]
+  </auteur>
+  <version>0.4</version>
+  <version_base>0.1</version_base>
+  <etat>test</etat>
+  <description>
+    <multi>URLs personnalisées pour Openweb</multi>
+    <lien></lien> <!-- URI de documentation -->
+  </description>
+  <prefix>owurl</prefix>
+  <necessite id="cextras" version="[0.8;]" />
+  <pipeline>
+    <nom>declarer_champs_extras</nom>
+    <inclure>base/owurl_sur_tout.php</inclure>
+  </pipeline>
+  <install>base/owurl_install.php</install>
+</plugin>
